@@ -34,6 +34,14 @@
         android:text="Dalej"
         android:layout_gravity="center"
         />
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
 
 
 
