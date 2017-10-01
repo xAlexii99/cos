@@ -3,27 +3,30 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/abc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="zadanie 1"
-        android:layout_gravity="center"
-        />
-    <Button
-        android:id="@+id/cba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="zadanie 2"
-        android:layout_gravity="center"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="zadanie 3"
-        android:layout_gravity="center"
-        android:id="@+id/zad3"
 
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niedziela"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/ka"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/bton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="szukaj"
+        android:layout_gravity="center"
         />
 
 </LinearLayout>
